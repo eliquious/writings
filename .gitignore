@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+# Ignore generated TeX files
+
+**/generated/*.aux
+**/generated/*.log
+
