@@ -1,1 +1,2 @@
 pdflatex: /Library/TeX/texbin/pdflatex
+outputdirname: generated

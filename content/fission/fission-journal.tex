@@ -1,0 +1,101 @@
+%
+% Body text font is Palatino!
+%
+
+\documentclass[a5paper,pagesize,10pt,bibtotoc,pointlessnumbers,
+normalheadings,DIV=9,twoside=false]{scrbook}
+
+% twoside, openright
+\KOMAoptions{DIV=last}
+
+\usepackage{geometry}
+	\geometry{
+		a5paper,
+		% total={170mm,257mm},
+		left=15mm,
+		top=20mm,
+}
+\setlength{\parindent}{0pt}
+
+\usepackage{trajan}
+ 
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% \usepackage{indentfirst}
+
+\usepackage[babel,german=guillemets]{csquotes}
+
+\usepackage[sc]{mathpazo}
+\linespread{1.05} 
+
+\usepackage{verbatim} % for comments
+\usepackage{listings} % for comments
+
+\usepackage{sectsty}
+\sectionfont{\centering}
+
+%\setlength{\parindent}{10pt}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+
+\usepackage{blindtext}
+\newcommand{\q}[1]{>>\textit{#1}<<}
+
+\title{A Fission Journal}
+\author{Max Haroldson}
+% \date{\today} 
+
+\newcommand\shortlorem{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.}
+
+\begin{document}
+
+%=========================================
+\begin{titlepage}
+		\centering{
+			{\fontsize{40}{48}\selectfont 
+			A Fission Journal}
+		}\\
+			
+		\vspace{10mm}
+		\centering{\Large{Max Haroldson}}\\
+		\vspace{\fill}
+		\centering \large{2023}
+\end{titlepage}
+
+%=========================================
+% \newpage{}
+% \thispagestyle {empty}
+
+% \vspace*{2cm}
+
+% % \input{quote}
+
+% % \begin{center}
+% % 	\Large{\parbox{10cm}{
+% % 		\begin{raggedright}
+% % 		{\Large 
+% % 			\textit{Do what you think is interesting, 
+% % 			do something that you think is fun and worthwhile, 
+% % 			because otherwise you won’t do it well anyway.}
+% % 		}
+	
+% % 		\vspace{.5cm}\hfill{---Brian W. Kernighan}
+% % 		\end{raggedright}
+% % 	}
+% % }
+% % \end{center}
+
+% \newpage
+
+%=========================================
+
+\input{content/20231227-dec27}
+
+%=========================================
+\begin{comment}
+Just some notes, not visible in pdf.
+\end{comment}
+
+
+\end{document}

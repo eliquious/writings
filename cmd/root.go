@@ -32,7 +32,7 @@ import (
 const (
 
 	// KEY_PDFLATEX is the config key for the PDFLATEX command line tool
-	KEY_PDFLATEX = "PDFLATEX"
+	KEY_PDFLATEX = "pdflatex"
 
 	// KEY_OUTPUTDIRNAME is the name of the generated folder for the output files
 	KEY_OUTPUTDIRNAME = "outputdirname"
